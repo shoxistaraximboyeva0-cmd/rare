@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+nav ul a{
+    font-family: Mulish;
+font-weight: 400;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: gray;
+transition: 500ms;
+}
+nav ul a:hover{
+    color: black;
+    font-size: 22px;
+}
+nav ul {
+    gap: 20px;
+    display: flex;
+}
+.hider_contect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hider_text h1{
+font-family: Mulish;
+font-weight: 700;
+font-size: 45px;
+leading-trim: NONE;
+line-height: 56px;
+letter-spacing: 0%;
+width: 421px;
+}
+.hider_text p{
+    font-family: Mulish;
+font-weight: 300;
+font-size: 19px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: 0%;
+color: #7D7987;
+width: 440px;
+margin: 35px 0;
+
+}
+.btn{
+    padding: 14px 37px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+background-color: transparent;
+transition: 0.5s;
+text-align: center;
+justify-content: center;
+}
+
+
+
+.btn:hover{
+    background-color: #458FF6;
+    color: white;
+}
+section h2{
+    font-family: Mulish;
+font-weight: 700;
+font-size: 35px;
+leading-trim: NONE;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+}
+section p{
+    font-family: Mulish;
+font-weight: 300;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+width: 952px;
+margin: 61px auto;
+color: rgba(125, 121, 135, 1);
+}
+.box{
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    background-color:rgba(231, 231, 231, 1) ;
+    padding: 71px 57px 31px 40px;
+    transition: 500ms;
+
+}
+.box h2{
+    margin: 30px 0;
+    font-style: 24px;
+}
+.box:hover{
+    background-color: rgba(90, 152, 242, 1);
+    color: white;
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.extra_banner{
+    flex-direction: row-reverse;
+}
+.photo{
+    justify-content: center;
+}
+h2{
+    color: black;
+}
+.UFF{
+    background-color: #5A98F2;
+    color: white;
+    justify-content: center;
+}
